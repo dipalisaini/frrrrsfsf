@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    padding: 8px;
+    background-color: grey;
+} 
+
+.container{
+    max-width: 600px;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px 15px 20px;
+    font-size: medium;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 10px 10px light grey;
+    border: 1px solid black;
+
+}
+
+input#Email,#Password,#Re-typepassword,#country{
+    width: 360px;
+    padding: 8px;
+}
+
+input#FirstName,#LastName{
+    width: 80px;
+    padding: 4px;
+}
+
+.icon{
+    width: 50px;
+    padding: 10px;
+    background-color: rgb(176, 176, 226);
+    color: black;
+    text-align: center;
+}
